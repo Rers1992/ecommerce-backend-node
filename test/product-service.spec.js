@@ -1,4 +1,4 @@
-const { getAllProduct, getProductByCode } = require("../service/product-service");
+const { getAllProduct, getProductByCode } = require("../src/service/product-service");
 
 describe("product-service", () => {
   it("should return all products", () => {
